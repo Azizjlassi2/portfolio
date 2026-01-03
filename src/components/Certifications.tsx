@@ -49,11 +49,17 @@ const certifications = [{
     name: '30 Days of Machine Learning / Deep Learning',
     url: null
   }]
+}, {
+  provider: 'Google',
+  certs: [{
+    name: 'Introduction to Large Language Models',
+    url: 'https://coursera.org/share/b8e1634e7705f0e2f253972657f28365'
+  }]
 }];
 export function Certifications() {
   return <section className="py-24 px-6 bg-zinc-900/30 border-y border-zinc-900">
-      <div className="max-w-5xl mx-auto">
-        <motion.div initial={{
+    <div className="max-w-5xl mx-auto">
+      <motion.div initial={{
         opacity: 0,
         y: 20
       }} whileInView={{
@@ -62,16 +68,16 @@ export function Certifications() {
       }} viewport={{
         once: true
       }} className="mb-16">
-          <h2 className="text-sm font-mono text-indigo-400 uppercase tracking-wider mb-4">
-            Certifications
-          </h2>
-          <h3 className="text-3xl font-bold text-white">
-            Certifications & Formations
-          </h3>
-        </motion.div>
+        <h2 className="text-sm font-mono text-indigo-400 uppercase tracking-wider mb-4">
+          Certifications
+        </h2>
+        <h3 className="text-3xl font-bold text-white">
+          Certifications & Formations
+        </h3>
+      </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-6">
-          {certifications.map((group, index) => <motion.div key={group.provider} initial={{
+      <div className="grid md:grid-cols-2 gap-6">
+        {certifications.map((group, index) => <motion.div key={group.provider} initial={{
           opacity: 0,
           scale: 0.95
         }} whileInView={{
@@ -82,23 +88,23 @@ export function Certifications() {
         }} transition={{
           delay: index * 0.1
         }} className="p-6 bg-zinc-950 border border-zinc-800 rounded-xl">
-              <div className="flex items-center gap-3 mb-6">
-                <AwardIcon className="w-5 h-5 text-indigo-400" />
-                <h4 className="text-lg font-semibold text-white">
-                  {group.provider}
-                </h4>
-              </div>
-              <ul className="space-y-3">
-                {group.certs.map((cert, i) => <li key={i} className="flex items-start gap-2 text-sm">
-                    <span className="mt-1.5 w-1 h-1 rounded-full bg-zinc-700 flex-shrink-0" />
-                    {cert.url ? <a href={cert.url} target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-indigo-400 transition-colors flex items-center gap-1.5 group">
-                        <span>{cert.name}</span>
-                        <ExternalLinkIcon className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-                      </a> : <span className="text-zinc-400">{cert.name}</span>}
-                  </li>)}
-              </ul>
-            </motion.div>)}
-        </div>
+          <div className="flex items-center gap-3 mb-6">
+            <AwardIcon className="w-5 h-5 text-indigo-400" />
+            <h4 className="text-lg font-semibold text-white">
+              {group.provider}
+            </h4>
+          </div>
+          <ul className="space-y-3">
+            {group.certs.map((cert, i) => <li key={i} className="flex items-start gap-2 text-sm">
+              <span className="mt-1.5 w-1 h-1 rounded-full bg-zinc-700 flex-shrink-0" />
+              {cert.url ? <a href={cert.url} target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-indigo-400 transition-colors flex items-center gap-1.5 group">
+                <span>{cert.name}</span>
+                <ExternalLinkIcon className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+              </a> : <span className="text-zinc-400">{cert.name}</span>}
+            </li>)}
+          </ul>
+        </motion.div>)}
       </div>
-    </section>;
+    </div>
+  </section>;
 }
