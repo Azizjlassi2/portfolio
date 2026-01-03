@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "homepage": "https://Azizjlassi2.github.io/portfolio",
+  "homepage": "https://Azizjlassi2.github.io/portfolio/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
