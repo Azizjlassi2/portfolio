@@ -4,16 +4,16 @@ import { GithubIcon, ExternalLinkIcon, FolderIcon } from 'lucide-react';
 const projects = [{
   title: 'DermaSkin',
   subtitle: 'AI-Powered Medical Diagnosis',
-  description: "Application web et mobile pour la détection du cancer de la peau utilisant des modèles CNN avancés pour l'analyse d'images dermatologiques.",
+  description: "Web and mobile application for skin cancer detection using advanced CNN models for dermatological image analysis.",
   tags: ['Django', 'Django REST Framework', 'Python', 'HTML', 'CSS', 'JavaScript', 'TensorFlow', 'CNN'],
   links: {
     github: 'https://github.com/Azizjlassi2/Derma-Skin',
     demo: '#'
   }
 }, {
-  title: 'Ai+',
+  title: 'Ai+ Platform',
   subtitle: 'AI-as-a-Service Marketplace',
-  description: "Plateforme complète permettant la publication, le déploiement et la monétisation de modèles d'intelligence artificielle avec facturation automatisée.",
+  description: "AI-as-a-Service platform dedicated to the Tunisian ecosystem, enabling the publication, deployment, and monetization of artificial intelligence models.",
   tags: ['SpringBoot', 'SpringSecurity', 'JWT', 'JPA', 'React.js', 'Supabase(PostgreSQL)', 'AWS Fargate', 'AWS S3', 'Docker', 'CI/CD'],
   links: {
     github: 'https://github.com/Azizjlassi2/AI-Frontend',
@@ -22,7 +22,7 @@ const projects = [{
 }, {
   title: 'Marketplace with ERP Integration',
   subtitle: 'Enterprise Resource Planning',
-  description: 'Backend robuste intégrant un serveur Odoo pour la gestion complète : catalogue, commandes, stocks et flux de paiement sécurisés.',
+  description: 'Robust backend integrating an Odoo server for complete management: catalog, orders and stocks.',
   tags: ['Django', 'Django REST Framework', 'Python', 'Odoo', 'PostgreSQL', 'API REST'],
   links: {
     github: 'https://github.com/Azizjlassi2/Odoo-Marketplace',
@@ -31,7 +31,7 @@ const projects = [{
 }, {
   title: 'Little Lemon Restaurant',
   subtitle: 'Restaurant Management API',
-  description: 'Backend complet exposant un ensemble d’APIs métier pour gérer le cycle opérationnel du restaurant : menu, commandes, workflow de livraison et pilotage des équipes, destiné aux applications web et mobiles.',
+  description: "Complete backend exposing a set of business APIs to manage the restaurant's operational cycle: menu, orders, delivery workflow, and team management, designed for web and mobile applications.",
   tags: ['Django', 'Django REST Framework', 'Python', 'Djoser', 'MySQL', 'API REST'],
   links: {
     github: 'https://github.com/Azizjlassi2/LittleLemon',
@@ -39,8 +39,8 @@ const projects = [{
   }
 }, {
   title: 'Task Manager Desktop App',
-  subtitle: 'Gestion simple des tâches sur bureau',
-  description: 'Application Java de bureau permettant de gérer des tâches : création, modification, suppression et affichage, avec interface graphique Swing et architecture MVC pour une maintenance facilitée.',
+  subtitle: 'Desktop Java Task Managment Application',
+  description: 'Desktop Java application for managing tasks: creation, modification, deletion, and display, with Swing graphical interface and MVC architecture for easier maintenance.',
   tags: ['Java', 'Swing', 'MVC', 'Desktop App', 'Java SE', 'GUI'],
   links: {
     github: 'https://github.com/Azizjlassi2/Task-Management-App',
@@ -48,8 +48,8 @@ const projects = [{
   }
 }, {
   title: 'Agile Project Management API',
-  subtitle: 'API RESTful pour la gestion agile de projets',
-  description: "API backend complète permettant de gérer projets, sprints, tâches, utilisateurs et commentaires, facilitant la collaboration et le suivi de l'avancement au sein des équipes, développée avec Django et Django REST Framework.",
+  subtitle: 'API RESTful For Agile Project Management',
+  description: "Complete backend API for managing projects, sprints, tasks, users, and comments, facilitating collaboration and progress tracking within teams, developed with Django and Django REST Framework.",
   tags: ['Django', 'Django REST Framework', 'Python', 'MySQL', 'API REST', 'Agile'],
   links: {
     github: 'https://github.com/Azizjlassi2/SMT',
