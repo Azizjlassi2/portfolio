@@ -94,7 +94,7 @@ export function Hero() {
 
 
             <a
-              href="/resume.pdf"
+              href="public/resume.pdf"
               download="Mohamed_Aziz_Jlassi_Resume.pdf"
               className="flex items-center gap-2 px-8 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition-colors"
             >
