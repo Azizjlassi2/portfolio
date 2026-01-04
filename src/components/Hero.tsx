@@ -1,6 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDownIcon, TerminalIcon, DatabaseIcon, CpuIcon, LayersIcon, CloudIcon, ServerIcon, BrainCircuitIcon } from 'lucide-react';
+
 
 export function Hero() {
   return (
@@ -84,7 +84,7 @@ export function Hero() {
             </div>
           </motion.div>
 
-          {/* CTA Buttons – Added Resume Download Button */}
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -94,7 +94,7 @@ export function Hero() {
 
 
             <a
-              href="src\public\Jlassi Mohamed Aziz CV FR.pdf"
+              href="/resume.pdf"
               download="Mohamed_Aziz_Jlassi_Resume.pdf"
               className="flex items-center gap-2 px-8 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition-colors"
             >
