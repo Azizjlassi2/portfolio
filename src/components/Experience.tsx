@@ -53,7 +53,7 @@ export function Experience() {
           Experience
         </h2>
         <h3 className="text-3xl font-bold text-white">
-          Parcours Professionnel
+          Professional Experience
         </h3>
       </motion.div>
 

@@ -38,6 +38,36 @@ const projects = [{
     demo: '#'
   }
 }, {
+  title: 'NLP Sentiment Analysis Project',
+  subtitle: 'Customer Reviews Sentiment Classification (Threads App)',
+  description: 'Mini NLP project in Python to classify user reviews of the Threads app as positive, negative, or neutral. Full pipeline: data exploration, preprocessing (tokenization, lemmatization), linguistic analysis (POS tagging, adjectives, NER), feature engineering (BoW, TF-IDF, Word2Vec), ML modeling (Logistic Regression) and DL (neural network), evaluation, and visualizations.',
+  tags: ['Python', 'NLP', 'Sentiment Analysis', 'Machine Learning', 'Deep Learning', 'scikit-learn', 'spaCy', 'Word2Vec', 'TensorFlow', 'Pandas'],
+  links: {
+    github: 'https://github.com/Azizjlassi2/Classification-de-Sentiments-sur-Avis-Clients-Threads-App-',
+    demo: '#'
+  }
+},
+{
+  title: 'Memory Game',
+  subtitle: 'Ascending Order Memory Game with Java Swing',
+  description: 'Simple card game developed in Java using Swing. The player must uncover all cards in ascending order (from 1 to n) within a time limit. Features a user-friendly GUI, timer management, automatic reset on mistakes or time expiration, and configurable number of cards.',
+  tags: ['Java', 'Swing', 'GUI', 'Desktop App', 'Java SE', 'Memory Game', 'Timer'],
+  links: {
+    github: 'https://github.com/Azizjlassi2/Memory-Game',
+    demo: '#'
+  }
+},
+{
+  title: 'QA Mini-Project: Functional Test Automation on SauceDemo',
+  subtitle: 'Automated Functional Testing with Cucumber, Selenium, and Extent Reports',
+  description: 'Mini-project for a Software Testing exam. Automates four functional scenarios on the SauceDemo web app (authentication, cart management, checkout, sorting/filtering) following best practices: Page Object Model (POM), readable Gherkin scenarios, explicit waits, Extent reports with screenshots on failures, and CI/CD integration.',
+  tags: ['Java', 'Selenium', 'Cucumber', 'POM', 'Extent Reports', 'Gherkin', 'WebDriverManager', 'Maven', 'Automation Testing', 'BDD'],
+  links: {
+    github: 'https://github.com/Azizjlassi2/Automatisation-des-Tests-Fonctionnels-sur-SauceDemo',
+    demo: '#'
+  }
+}
+  , {
   title: 'Task Manager Desktop App',
   subtitle: 'Desktop Java Task Managment Application',
   description: 'Desktop Java application for managing tasks: creation, modification, deletion, and display, with Swing graphical interface and MVC architecture for easier maintenance.',
@@ -71,7 +101,7 @@ export function Projects() {
         <h2 className="text-sm font-mono text-indigo-400 uppercase tracking-wider mb-4">
           Portfolio
         </h2>
-        <h3 className="text-3xl font-bold text-white">Projets Réalisés</h3>
+        <h3 className="text-3xl font-bold text-white">Projects </h3>
       </motion.div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

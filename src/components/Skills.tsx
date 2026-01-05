@@ -4,16 +4,16 @@ const skillGroups = [{
   title: 'Langages & Frameworks',
   skills: ['Python', 'Java', 'JavaScript', 'Django', 'Spring Boot', 'ExpressJS', 'React.js']
 }, {
-  title: 'Intelligence Artificielle',
+  title: 'Artificielle Intelligence ',
   skills: ['Machine Learning', 'Deep Learning', 'Natural Language Processing ', 'Scikit-learn', 'TensorFlow', 'NLTK', 'SPACY', "Pandas", "Numpy", 'Matplotlib']
 }, {
   title: 'Cloud & DevOps',
   skills: ['AWS', 'Docker', 'CI/CD', 'Jenkins', 'Git', 'Github Actions']
 }, {
-  title: 'Bases de Données',
+  title: 'Database Management System',
   skills: ['PostgreSQL', 'MongoDB', 'MySQL', 'Oracle']
 }, {
-  title: 'Tests & Modélisation',
+  title: 'Tests & Modelisation',
   skills: ['JUnit', 'Cucumber', 'UML', 'BPMN']
 }];
 export function Skills() {
@@ -32,7 +32,7 @@ export function Skills() {
           Expertise
         </h2>
         <h3 className="text-3xl font-bold text-white">
-          Compétences Techniques
+          Skills
         </h3>
       </motion.div>
 
